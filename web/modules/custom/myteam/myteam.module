@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains myteam.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function myteam_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the myteam module.
+    case 'help.page.myteam':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('myteam') . '</p>';
+      return $output;
+
+    default:
+  }
+}

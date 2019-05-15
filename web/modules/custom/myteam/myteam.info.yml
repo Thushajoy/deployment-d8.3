@@ -1,0 +1,5 @@
+name: 'myteam'
+type: module
+description: 'myteam'
+core: 8.x
+package: 'new module'
