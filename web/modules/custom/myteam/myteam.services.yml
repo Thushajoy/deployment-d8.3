@@ -1,0 +1,6 @@
+services:
+  myteam.event_subscriber:
+    class: Drupal\myteam\EventSubscriber\MyteamSubscriber
+    arguments: []
+    tags:
+      - { name: event_subscriber }
