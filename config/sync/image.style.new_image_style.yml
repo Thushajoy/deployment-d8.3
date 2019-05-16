@@ -1,0 +1,14 @@
+uuid: 97616a40-9bb6-4d1d-aa63-760f3926f289
+langcode: en
+status: true
+dependencies: {  }
+name: new_image_style
+label: 'new image style'
+effects:
+  bd55eae5-4025-4f07-9f52-e4f1bd7da1ed:
+    uuid: bd55eae5-4025-4f07-9f52-e4f1bd7da1ed
+    id: image_resize
+    weight: 1
+    data:
+      width: 500
+      height: 500
